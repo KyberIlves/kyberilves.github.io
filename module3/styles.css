@@ -1,0 +1,30 @@
+color-example 
+{
+    color:palegreen;
+    background-color:#FB98BF;
+    border-color:#BF98FB;
+    border-width:thick;
+}
+header-example
+{
+    font-family:'Gill Sans';
+    font-size: large;
+    color: aquamarine;
+}
+list-example
+{
+    list-style-type: square;
+    color:aqua;
+}
+text-example
+{
+    font-family: sans-serif;
+    font-size: larger;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+div-example
+{
+    background-color: #FB98BF;
+    border-style: dashed;
+}
