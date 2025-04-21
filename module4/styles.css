@@ -1,0 +1,20 @@
+.page-example
+{
+    background-color: pink;
+    border-radius: 25px;
+    padding: 20px;
+    width: 380px;
+}
+.header-example
+{
+    border-style: dashed;
+}
+.sakura-example
+{
+    background-color: aquamarine;
+    border-radius: 25px;
+    padding: 20px;
+    width: 300px;
+    height: auto;
+
+}
