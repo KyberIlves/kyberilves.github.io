@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+
+/*Main page CSS (index.html)*/
+#header
+{
+    text-align: center;
+    font-size: 35px;
+    padding: 30px;
+    background: #d8e2dc;
+}
+
+#nav
+{
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    background: #C997A0;
+    
+}
+a:link {color: #0000ff;}
+a:visited {color:purple}
+a:hover{color: red;}
+
+#section
+{
+    float: left;
+    width: 70%;
+    padding: 20px;
+    
+    background: #f4acb7;
+}
+
+#aside
+{
+    float: left;
+    padding: 20px;
+    width: 30%;
+    background:  #ffcad4;
+}
+section::after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#footer
+{
+    width: 100%;
+    float: left;
+    background-color: #9d8189;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+/*Sakura Page CSS (second.html)*/
+.page-example
+{
+    background-color: pink;
+    border-radius: 25px;
+    padding: 20px;
+    width: 380px;
+}
+.header-example
+{
+    border-style: dashed;
+}
+.sakura-example
+{
+    background-color: aquamarine;
+    border-radius: 25px;
+    padding: 20px;
+    width: 300px;
+    height: auto;
+
+}
+.body
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Games Page CSS (third.html)*/
+#games-header
+{
+    text-align: center;
+    font-size: 35px;
+    padding: 30px;
+    background: #df0024;
+    margin: auto;
+}
+/*Style the games page's nav section*/
+#games-nav
+{
+    float: left;
+    width: 30%;
+    padding: 20.1px;
+    background: #f3c300;
+}
+/*Style the list inside nav*/
+#games-nav-ul{list-style-type: none; }
+
+/*Syle the links inside nav*/
+.games-nav-a{text-decoration: none;}
+
+/*Syle the My favourite games section*/
+#games-section
+{
+    float: left;
+    width: 70%;
+    padding: 22px;
+    background: #00ac9f;
+    
+}
+
+section::after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+/*Style the games footer*/
+#games-footer
+{
+    width: 100%;
+    float: left;
+    background-color: #2e6db4;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
