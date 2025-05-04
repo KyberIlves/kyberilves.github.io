@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Simply Klaus</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #ffafcc; /* Pink */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #bde0fe; /* Pastel Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffc8dd; /* Pastel Pink */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #a2d2ff; /* Light Blue */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#WHO">Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#WHO">WHO</a></li>
+        <li><a href="#WHAT">WHAT</a></li>
+        <li><a href="#WHERE">WHERE</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin" id="WHO">Who Am I?</h3>
+  <img src="gamer.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Person staring at camera, half of the face&picture covered with green numbers" 
+  width="350" height="350">
+  <h3>I'm an explorer.</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin" id="WHAT">What Am I?</h3>
+  <p>I'm a Cyber Security student, queer activist and a gamer. </p>
+  <a href="#" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-home"></span> Home
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin" id="WHERE">Where To Find Me?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Learning new things</p>
+      <img src="student.jpg" class="img-responsive margin" style="width:100%" alt="Hoodie wearing student on a laptop">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Supporting human rights</p>
+      <img src="activist.jpg" class="img-responsive margin" style="width:100%" alt="People on a pride parade with different types of flags smiling">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Exploring new worlds</p>
+      <img src="gaming.jpg" class="img-responsive margin" style="width:100%" alt="Gamer holding a controller and looking towards camera with a consentrated face">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>&copy;Klaus 2025</p> 
+</footer>
+
+</body>
+</html>
